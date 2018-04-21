@@ -5,7 +5,7 @@ function submitComment(commentControl) {
     // TODO - Call API
     var comments = document.getElementsByName(commentControl)[0].value;
     var url = "https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment";
-    var apiKey = "7db2554bc55f49f0b67ee274d156a584";
+    var apiKey = "7bd2554bc55f49f0b67ee274d156a583";
 
 	var body = {
 	"documents": [
